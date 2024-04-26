@@ -1,0 +1,7 @@
+
+
+
+-----------  INFO  ----------------
+
+
+Attention a bien donner la valeur a g_exit que lors de la DERNIERE pipe

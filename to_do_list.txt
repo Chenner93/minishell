@@ -1,0 +1,34 @@
+faire la to-do liste.
+
+Bah alors Guillaume, on a pas fait de to do list ?
+
+Tu connais le concept du frigo ?
+
+cest marrant ca lol
+connard
+
+
+ok!			modifier get_highest_priorities pour utiliser une chaine de caractere a la place du tableau.
+ok! (mais a tester) 	modifier cette meme fonction pour quel ignore ce qui est entre guillemet.
+ok! 			refaire le parsing/ast_construct etc pour utiliser les nouvelles chaine.
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+tous ce qui a des guillemet fait des invalide read. genre echo "gneuu" ou juste "". wtf?
+
+
+Pour minishell:
+((ls&&ls)) 		fait crasher
+(( ls && ls )) 		fait crasher
+( ( ls && ls ) )	ne fait pas crasher mais ne fonctionne pas (larbre nest pas correctement construit)
+
+Bash:
+((ls&&ls)) 		ne fait rien (affiche rien, ni le resultat ni une erreur)
+(( ls && ls ))		ne fait rien (affiche rien, ni le resultat ni une erreur)
+( ( ls && ls ) )	fonctionne normalement
+
+
+
+
+echo "bonjour" && lol) || (ici && la) 		fait crasher lol
+
